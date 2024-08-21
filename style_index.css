@@ -53,8 +53,23 @@ table th {
     background-color: #f4f4f4;
 }
 
-figure {
+.LOGO_TIMES {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap;
     margin: 20px 0;
+}
+
+.titulo_meio {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure {
+    display: block;
+    margin: 0;
 }
 
 figure img {
@@ -82,7 +97,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
